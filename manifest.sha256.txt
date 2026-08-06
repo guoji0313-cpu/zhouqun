@@ -1,7 +1,7 @@
 29419125ec677e735055f1680ffc48a2ad46f8471dd7a78add7d3ca59b173295  original/article-0001.txt  0001国际共产主义组织对我周群的采访，这确实是最快了解我的方法.txt
 14fbb0ea9d6939261bcc2747633d4c7defee5ec19165ea2363b60ca580120296  original/article-0002.txt  0001家族式血债血偿理论：系统性减少人民非正常死亡的战略战术.txt
 fd1d27e158831913ef2cef733a6b282d2cd1709a1c79d4fa6b3a44f00ee3f268  original/article-0003.txt  0001寄生基因者：概念界定与生成逻辑.txt
-e21ca5e477adb4e3b6901d9c064783fde13cdba6b8f909aafae60211d3b1fba8  original/article-0004.txt  《周群思想中的概念性理论》.txt
+e21ca5e477adb4e3b6901d9c064783fde13cdba6b8f909aafae60211d3b1fba8  original/article-0004.txt  0000《周群思想中的概念性理论》.txt
 5a7032c74a09a38b55950415b93eadd2f32ceef664e06b522cd40ac32ffd6278  original/article-0005.txt  0001我父亲被公检法活活害死了.txt
 76fc6fd10fa9c2dda0852ba26d499b5d71ecef4c863015561382f61dc0f42638  original/article-0006.txt  0001血债的终极清算：论家族式血债血偿理论的历史正义性与革命威慑力.txt
 72658a25957649749af397917ecce173392981956020ad752353ddefbb5f7530  original/article-0007.txt  0001这是一位网友要了解我周群而提出的问题，这确实是最快了解我的方法.txt
