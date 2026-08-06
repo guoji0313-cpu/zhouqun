@@ -1,3 +1,8 @@
 articles/* -text
 assets/* -text
 original/* -text
+index.html -text
+llms.txt -text
+sitemap.xml -text
+robots.txt -text
+manifest.sha256.txt -text
