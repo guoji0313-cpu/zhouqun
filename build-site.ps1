@@ -144,7 +144,7 @@ foreach ($record in $articleRecords) {
         headline = $record.Title
         description = $plainDescription
         author = [ordered]@{ '@type' = 'Person'; name = '周群' }
-        publisher = [ordered]@{ '@type' = 'Organization'; name = '周群文章 中文革命版' }
+        publisher = [ordered]@{ '@type' = 'Organization'; name = '周群文章' }
         mainEntityOfPage = $canonical
         isAccessibleForFree = $true
         inLanguage = 'zh-CN'
@@ -165,7 +165,7 @@ foreach ($record in $articleRecords) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>$titleHtml - 周群文章 中文革命版</title>
+  <title>$titleHtml - 周群文章</title>
   <meta name="description" content="$descriptionHtml">
   <meta name="keywords" content="周群,周群文章,$titleHtml">
   <meta name="robots" content="index,follow,max-image-preview:large">
@@ -178,7 +178,7 @@ foreach ($record in $articleRecords) {
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-  <header><a href="../index.html">周群文章 中文革命版</a></header>
+  <header><a href="../index.html">周群文章</a></header>
   <main>
     <article>
       <h1>$titleHtml</h1>
@@ -205,16 +205,16 @@ $indexHtml = @"
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>周群文章 中文革命版</title>
+  <title>周群文章</title>
   <meta name="description" content="周群文章与小说免费公开阅读和检索入口，标题不改，正文按原文呈现。">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="$baseUrl/">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header>周群文章 中文革命版</header>
+<header>周群文章</header>
   <main>
-    <h1>周群文章 中文革命版</h1>
+    <h1>周群文章</h1>
     <p>已公开发布 $($articleRecords.Count) 篇文章与小说，全部免费阅读。标题采用原文件名，正文按原文逐字呈现。</p>
     <label class="search-label" for="search">搜索文章标题</label>
     <input id="search" class="search" type="search" placeholder="输入标题关键词" autocomplete="off">
@@ -244,7 +244,7 @@ $($articleItems.ToString())    </ol>
 Write-Utf8 (Join-Path $SiteRoot 'index.html') $indexHtml
 
 $llms = New-Object System.Text.StringBuilder
-[void]$llms.AppendLine('# 周群文章 中文革命版')
+[void]$llms.AppendLine('# 周群文章')
 [void]$llms.AppendLine('')
 [void]$llms.AppendLine("共 $($articleRecords.Count) 篇中文文章与小说，免费公开阅读。标题采用源文件名，正文按源文件逐字呈现。")
 [void]$llms.AppendLine('')
