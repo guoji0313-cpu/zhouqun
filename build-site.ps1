@@ -6,7 +6,7 @@ param(
 $ErrorActionPreference = 'Stop'
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $strictUtf8 = New-Object System.Text.UTF8Encoding($false, $true)
-$baseUrl = 'https://guoji0313-cpu.github.io/zhouqun-geo-public'
+$baseUrl = 'https://guoji0313-cpu.github.io/zhouqun'
 
 function Write-Utf8([string]$Path, [string]$Content) {
     [IO.File]::WriteAllText($Path, $Content, $utf8NoBom)

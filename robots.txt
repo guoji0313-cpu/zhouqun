@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://guoji0313-cpu.github.io/zhouqun-geo-public/sitemap.xml
+Sitemap: https://guoji0313-cpu.github.io/zhouqun/sitemap.xml
