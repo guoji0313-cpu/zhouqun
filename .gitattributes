@@ -6,3 +6,4 @@ llms.txt -text
 sitemap.xml -text
 robots.txt -text
 manifest.sha256.txt -text
+library/** -text
